@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./images/calc.png">
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="./images/logo.png">
+</head>
+<body>
+    <h1>CALCULATOR</h1>
+    <!-- <h1>Hello</h1> -->
+    <div id="container">
+    <div id="calculator">
+        <div id="row-1">
+            <button class='operator' id="percentage">%</button>
+            <button class='operator' id="CE">CE</button>
+            <button class='operator' id="C">C</button>
+            <button class='operator' id="return">&lt;=</button>
+        </div>
+        <div id="row-2">
+            <button class='operator' id="fraction">1/x</button>
+            <button class='operator' id="quadratic">x<sup>2</sup></button>
+            <button class='operator' id="square-root">&#8730;x</button>
+            <button class='operator main-operator' id="division">/</button>
+        </div>
+        <div id="row-3">
+            <button id="seven">7</button>
+            <button id="eight">8</button>
+            <button id="nine">9</button>
+            <button class='operator main-operator' id="multiplication">*</button>
+        </div>
+        <div id="row-4">
+            <button id="four">4</button>
+            <button id="five">5</button>
+            <button id="six">6</button>
+            <button class='operator main-operator' id="difference">-</button>
+        </div>
+        <div id="row-5">
+            <button id="one">1</button>
+            <button id="two">2</button>
+            <button id="three">3</button>
+            <button class='operator main-operator' id="sum">+</button>
+        </div>
+        <div id="row-6">
+            <button class='operator'id="negative-positive">+/-</button>
+            <button id="zero">0</button>
+            <button id="comma">,</button>
+            <button class='operator main-operator' id="equal">=</button>
+        </div>
+    </div>
+    <div >
+        <p id="output"></p>
+    </div>
+    </div>
+</body>
+    <script src="app.js"></script>
+</html>

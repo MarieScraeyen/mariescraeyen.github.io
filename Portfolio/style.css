@@ -1,0 +1,109 @@
+body
+{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:rgb(242, 249, 218);
+}
+
+h1{
+    /* color: rgb(233, 212, 212); */
+    font-size: 3.5em;
+    padding-top: 25px;
+}
+
+h2{
+    color: rgb(67, 38, 38);
+    font-size: 2em;
+}
+
+label
+{
+    /* color: brown; */
+    font-size: 1.3em;
+}
+
+input[type='email']
+{
+    margin-bottom:20px;
+}
+
+input, textarea{
+    border-radius: 5px;
+    background-color: rgba(15, 12, 12, 0.07);
+
+}
+
+textarea{
+    margin-top: 5px;
+    border: 2px solid black;
+}
+
+input
+{
+    margin: 5px;
+}
+/* h1:hover{
+    font-size: 3.5em;
+
+    transition: linear 250ms 150ms;
+} */
+
+#projects
+{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+img
+{
+    width: 300px;
+    /* height: 250px; */
+    margin: 10px;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+
+
+#projects p
+{
+    font-size: 2.5em;
+}
+
+img:hover{
+    opacity: 0.8;
+}
+
+main
+{
+    margin-bottom: 60px;
+}
+
+p
+{
+    width: 800px;
+    margin: auto;
+    font-size: 1.2em;
+}
+
+header, footer
+{
+    background-color: rgba(61, 10, 10, 0.099);
+    /* margin: 0; */
+    
+}
+
+input[type='submit']
+{
+    padding: 10px 20px;
+    background-color: aliceblue;
+}
+
+body
+{
+    margin: 0;
+}
+
+footer{
+    padding-bottom: 15px;
+}

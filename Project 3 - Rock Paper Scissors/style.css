@@ -1,0 +1,42 @@
+body
+{
+    background-color: rgb(249, 246, 236);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+button{
+    background-color: white;
+}
+
+#play-again
+{
+    display: none;
+    padding: 10px;
+    background-color: orangered;
+}
+
+#play-game
+{
+    padding: 10px;
+    background-color: orangered;
+}
+
+#rock
+{
+    background-color: orange;
+}
+
+#scores
+{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    font-size: 1.3em;
+}
+
+.choice
+{
+    padding: 10px;
+    font-size: 0.92em;
+    /* background-color: black; */
+}
